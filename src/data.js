@@ -5,7 +5,7 @@ export const profile = {
   shortName: 'Fabian',
   role: 'Full Stack & Mobile Developer',
   email: 'fgtdev753@gmail.com',
-  whatsapp: '+555499154545', // international format, used for the wa.me link
+  whatsapp: '+5554991524545', // international format, used for the wa.me link
   // TODO: add your real profile URLs (leave empty to hide the icon)
   github: 'https://github.com/FGTLight',
   linkedin: '',
@@ -16,13 +16,13 @@ export const profile = {
 export const about = {
   paragraphs: [
     "I'm a Full Stack developer since 2024 and a mobile developer since 2025, working with React and Node.js on the web and Flutter on mobile.",
-    "I hold a Computer Science degree from the University of Informatics Sciences (UCI), where I built a strong foundation in software engineering, algorithms and databases.",
+    "I'm an Informatics Sciences Engineer from the University of Informatics Sciences (UCI), where I built a strong foundation in software engineering, algorithms and databases.",
     'I enjoy turning ideas into clean, maintainable products and I care about performance, accessibility and good developer experience.',
   ],
   facts: [
     { label: 'Full Stack', value: 'since 2024' },
     { label: 'Mobile (Flutter)', value: 'since 2025' },
-    { label: 'Education', value: 'B.Sc. Computer Science — UCI' },
+    { label: 'Education', value: 'Informatics Sciences Engineering — UCI' },
   ],
   languages: [
     { name: 'Spanish', level: 'Native' },
