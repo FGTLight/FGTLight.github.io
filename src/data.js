@@ -69,7 +69,7 @@ export const projects = [
     tech: ['TypeScript', 'React', 'Fastify', 'WebSockets', 'PostgreSQL', 'Redis', 'Docker'],
     image: './projects/bidrush.png',
     repo: 'https://github.com/FGTLight/bidrush',
-    demo: '',
+    demo: 'https://bidrush-production.up.railway.app',
   },
   {
     title: 'PulseRoute',
