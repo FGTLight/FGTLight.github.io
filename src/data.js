@@ -42,16 +42,35 @@ export const skillGroups = [
   },
   {
     title: 'Backend',
-    items: ['Node.js', 'REST APIs', 'Supabase', 'PostgreSQL / PostGIS', 'SQLite (drift)'],
+    items: [
+      'Node.js',
+      'Fastify',
+      'REST APIs',
+      'WebSockets',
+      'PostgreSQL / PostGIS',
+      'Redis',
+      'Supabase',
+      'SQLite (drift)',
+    ],
   },
   {
     title: 'Tools',
-    items: ['Git', 'GitHub Actions', 'Vite', 'Vitest', 'Testing (unit, widget, bloc)'],
+    items: ['Git', 'GitHub Actions', 'Docker', 'Vite', 'Vitest', 'Testing (unit, widget, bloc)'],
   },
 ];
 
 // Leave `repo`, `demo` or `image` empty to hide them.
 export const projects = [
+  {
+    title: 'BidRush',
+    type: 'Full Stack',
+    description:
+      'Real-time 1-minute auction platform. Bids travel over WebSockets and are decided by a single atomic Postgres UPDATE, settled on a double-entry credits ledger whose invariants the database enforces, and fanned out across API instances with Redis pub/sub. An anti-bot engine scores every bid and throttles, challenges or blocks; a bot simulator flags 9/9 scripted bots and 0/5 humans. 178 tests, including 1,000 concurrent bids from 200 users.',
+    tech: ['TypeScript', 'React', 'Fastify', 'WebSockets', 'PostgreSQL', 'Redis', 'Docker'],
+    image: './projects/bidrush.png',
+    repo: 'https://github.com/FGTLight/bidrush',
+    demo: '',
+  },
   {
     title: 'PulseRoute',
     type: 'Mobile',
