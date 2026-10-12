@@ -72,6 +72,16 @@ export const projects = [
     demo: 'https://bidrush-production.up.railway.app',
   },
   {
+    title: 'E Michelin e Cia',
+    type: 'Full Stack',
+    description:
+      'Online store for a building-materials retailer in Erechim, RS. Catalog by department with search, weekly offers with a countdown, cart, favorites, quote requests and customer accounts with password or magic-link sign-in. Includes a materials calculator that estimates the bricks, mortar, cement and sand a wall, subfloor, floor or paint job needs and adds everything to the cart in one click.',
+    tech: ['Next.js', 'React', 'Supabase', 'Tailwind CSS', 'Zustand', 'Vercel'],
+    image: './projects/michelin.png',
+    repo: '',
+    demo: 'https://e-michelin-loja.vercel.app/',
+  },
+  {
     title: 'PulseRoute',
     type: 'Mobile',
     description:
